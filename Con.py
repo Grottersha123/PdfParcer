@@ -1,7 +1,6 @@
 from __future__ import print_function
 import os, sys
 from PIL import Image
-import subprocess
 
 def convert(path,form):
    a = os.listdir(path)
